@@ -109,8 +109,7 @@ default: 5
 - <b>DATA_DIR</b> - The directory where the snapshot is stored. <br>
 default: /var/zookeeper
 
-- <b>CLIENT_PORT</b> - The port at which the clients will connect.
-<br>
+- <b>CLIENT_PORT</b> - The port at which the clients will connect.<br>
 default: 2181
 
 
@@ -120,8 +119,7 @@ default: 60
 - <b>AUTO_PURGE__SNAP_RETAIN_COUNT</b> - The number of snapshots to retain in dataDir. <br>
 default: 3
 
-- <b>AUTO_PURGE__PURGE_INTERVAL</b> - Purge task interval in hours. Set to "0" to disable auto purge feature.
-<br>
+- <b>AUTO_PURGE__PURGE_INTERVAL</b> - Purge task interval in hours. Set to "0" to disable auto purge feature.<br>
 default: 1
 
 
